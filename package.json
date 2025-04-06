@@ -1,0 +1,22 @@
+{
+  "name": "openapi-ts-tanstack-query-repro",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@hey-api/client-fetch": "^0.10.0",
+    "@tanstack/solid-query": "^5.71.10",
+    "solid-js": "^1.9.5"
+  },
+  "devDependencies": {
+    "@hey-api/openapi-ts": "^0.66.3",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0",
+    "vite-plugin-solid": "^2.11.2"
+  }
+}
